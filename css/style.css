@@ -1,0 +1,390 @@
+body{
+	font-size: 16px;
+	padding:0;
+	margin:0;
+    /* animation: color 10s ease-in-out infinite;
+    background-color: #8b83f6; */
+    background: rgb(139,131,246);
+    background: linear-gradient(90deg, rgba(139,131,246,1) 0%, rgba(251,75,77,1) 100%);
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin:0px;
+	box-sizing: border-box;
+}
+
+div,p,input,button,span,a,ul,li{
+	margin: 0;
+}
+
+.container{
+    width: 1397px;
+    margin: 0 auto;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu li {
+    padding: 5px 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu_el {
+    width: 175px;
+    height: 48px;
+    background-color: #FB4B4D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+
+.container_1{
+    margin: 0 auto;
+    width: 1399px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_card_left{
+    border-top: 1px solid black;
+    width: 698px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+
+}
+
+.main_card_left_image {
+    height: 425px;
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    padding: 20px;
+    
+}
+
+.image_1, .image_2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+}
+
+.main_stroka{
+    width: 697px;
+    height: 78px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.stroka{
+    /* overflow: hidden; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stroka img{
+    margin-right: 29px;
+    margin-left: 29px;
+}
+
+.main_card_right{
+    border-top: 1px solid black;
+}
+
+.main_card_right_text{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.main_card_right_text h1{
+    padding: 24px 80px 15px 81px;
+    font-size: 56px;
+    line-height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.main_card_right_img{
+    padding: 20px;
+}
+
+.wrapper.scorpion{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.scorpion_text  {
+    font-size: 40px;
+    text-align: center;
+}
+
+.scorpion_image{
+    margin: 0 29px;
+}
+
+
+.card{
+    border-top: 1px solid black;
+    padding: 20px;
+}
+
+.card_source_fire{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.souce_card{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.souce_card_hram{
+    position: relative;
+    top: -85px;
+    margin-bottom: -85px;
+    width: 437px;
+    height: 659px;
+}
+.souce_card_hram p{
+    margin: 129px 130px 14px 130px;
+    text-align: center;
+    font-weight:400;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.souce_card_hram h1{
+
+    text-align: center;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.souce_card_hram.one{
+    left: 0px;
+    background-image: url(../image/hramSoucer.svg);
+}
+.souce_card_hram.two{
+    background-image: url(../image/hramSoucer.svg);
+ 
+}
+.souce_card_hram.three{
+    right: 0px;
+    background-image: url(../image/hramSoucer.svg);
+}
+
+.souce_photo{
+    margin: 14px 22px 20px 22px;
+}
+
+.wrapper.story{
+    display: flex;
+    flex-direction: column;
+}
+
+.story_souce_image{
+    border-top: 1px solid black;
+    padding: 21px;
+}
+
+.story_souce_text{
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.story_souce_text_girl{
+    border-right: 1px solid black;
+    
+}
+
+.story_souce_text_girl h1{
+    margin: 53px 48px 44px;
+    text-align: center;
+    font-size: 54px;
+    line-height: 62px;
+}
+
+.story_souce_text_pismena{
+    background: url(../image/pismena.svg);
+    width: 698px;
+    height: 698px;
+}
+
+.text_hello{
+    margin:125px 152px 0px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.pismena_text{
+    margin: 25px 152px 0px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.wrapper.border{
+    border-top: 1px solid black;
+}
+
+.obramlenie_fire{
+    background: url(../image/salat_fire.svg);
+    position: relative;
+    top: -45px;
+    left: 2px;
+}
+
+.big_logo{
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+.big_logo.imagess1,
+.big_logo.imagess2{
+    position: absolute;
+    top: 45px;
+    padding: 107px 247px; 
+}
+
+.obramlenie{
+    padding: 20px;
+    position: relative;
+    top: 49px;
+    background: linear-gradient(to top, #CDFD3B 10%, transparent 0%);
+}
+
+
+.wrapper.foot{
+    flex-direction: row;
+
+}
+
+.footer{
+    position: relative;
+    border-top: 1px solid black;
+    width: 1399px;
+    background-color: #CDFD3B;
+}
+
+.footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer li a{
+    text-decoration: none;
+    color: #000;
+    margin: 20px 93px;
+}
+
+.footer p{
+    margin: 20px 307px;
+}
+
+@keyframes color {
+    25%{
+        background-color: #FB4B4D;
+    }50%{
+        background-color: #8b83f6;
+    }75%{
+        background-color: #FB4B4D;
+    }100%{
+        background-color: #8b83f6;
+    }
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin: 9px;
+}
+
+.search input{
+    width: 20vw;
+    border: 1px solid black;
+    height: 30px;
+    padding: 4px;
+    margin-right: 9px;
+    background-color: #FB4B4D;
+    color: #000;
+    outline: none;
+}
+
+.search input::placeholder{
+    color: #fff
+}
+
+.btn_ep{
+    background-color: #CDFD3B;
+    outline: none;
+    border: 1px solid black;
+}
+.btn_ep:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); ;
+}
+
+.geo_form{
+    margin: 0;
+}
+
+.geoDataAndSearch{
+    display: flex ;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    border-top: 1px solid black;
+}
+
+#btn_geo{
+    cursor: pointer;
+    width: 8vw;
+    outline: none;
+    background-color: #FB4B4D;
+    border: none; 
+}
+
+#geoData{
+    
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#geoData p{
+    margin: 5px 30px;
+}
